@@ -4,4 +4,4 @@ package note_v1;
 
 option go_package = "github.com/dovgalb/microservices_cource_practice/week_1/grpc/pkg/note_v1;note_v1";
 
-service NpteV1
+//service NpteV1;
