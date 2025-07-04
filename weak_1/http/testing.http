@@ -1,0 +1,4 @@
+### GET request to example server
+GET localhost:8081/notes/3558888482797498741
+
+###
