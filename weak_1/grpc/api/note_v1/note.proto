@@ -1,4 +1,0 @@
-syntax = "proto3";
-
-package note_v1;
-
