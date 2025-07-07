@@ -19,13 +19,13 @@ type server struct {
 }
 
 func (s *server) Get(ctx context.Context, req *desc.GetRequest) (*desc.GetResponse, error) {
-	log.Printf("Note-id: %v", req.GetId())
+	log.Printf("Note id: %v", req.GetId())
 
 	return &desc.GetResponse{
 		Note: &desc.Note{
 			Id: req.GetId(),
 			Info: &desc.NoteInfo{
-				Title:    gofakeit.BeerName(),
+				Title:    "TEST TITLE",
 				Content:  gofakeit.IPv4Address(),
 				Author:   gofakeit.Name(),
 				IsPublic: gofakeit.Bool(),
